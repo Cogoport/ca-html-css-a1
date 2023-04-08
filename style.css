@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+.border {
+  /* border: 2px solid red; */
+}
+.navbar {
+  background-color: #fbdc00;
+  font-size: 14px;
+  padding: 0.6rem 6.5rem;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  margin: auto;
+}
+.logo {
+  display: flex;
+}
+#logo-image {
+  width: 8rem;
+}
+.options-list {
+  display: flex;
+  padding: 0.5rem;
+}
+.options > ul > li {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.login-signup {
+  display: flex;
+  align-items: center;
+}
+.login-signup > div {
+  padding: 0.8rem;
+}
+#login-icon {
+  font-size: 1.1rem;
+}
+.signup-button {
+  padding: 0.5rem 0.8rem;
+  border: 1px solid red;
+  border-radius: 8px;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+}
+.main-banner {
+  background-color: #fbdc00;
+  display: flex;
+  flex-direction: column;
+  padding: 0 7rem;
+}
+.banner-heading {
+  margin-top: 8rem;
+}
+.main-banner {
+  display: flex;
+  flex-direction: row;
+}
+.main-banner .banner-heading {
+  width: 50%;
+}
+.main-banner .banner-image {
+  width: 50%;
+}
+.main-banner .headline {
+  font-weight: 800;
+  font-size: 40px;
+  margin: 1rem 0;
+}
+.main-banner .information {
+  width: 70%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  color: #434343;
+  font-weight: 300;
+  margin: 0.5rem 0;
+}
+.main-banner .person-image {
+  width: 100%;
+}
+.main-banner .get-started {
+  background-color: red;
+  padding: 0.6rem 2.5rem;
+  color: white;
+  border: 1px solid #ff0000;
+  border-radius: 8px;
+  font-weight: 700;
+  margin: 1rem 0rem;
+}
+.stats {
+  padding: 0.6rem 6.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.stat {
+  color: red;
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0.6rem 0rem;
+}
+.stats div {
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.steps-banner {
+  padding: 0rem 6.5rem;
+  margin-top: 4rem;
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fffef2;
+}
+.steps-banner .banner-heading {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.steps-banner .banner-info {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.steps-banner .banner-text {
+  width: 50%;
+}
+.steps-banner .banner-image {
+  width: 50%;
+}
+.supply-banner-image {
+  width: 90%;
+}
+
+.products {
+  padding: 3rem 6.5rem;
+
+  background-color: #fffef2;
+}
+.products-heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+.product-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+.product-section-text {
+  width: 30%;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 2rem;
+  padding-left: 0;
+}
+.product-section-cards {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+.card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  background-color: white;
+  width: 11rem;
+  padding: 1.5rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem 0.8rem;
+  align-items: center;
+}
+.card:hover {
+  border: 1px solid red;
+}
+.card-image {
+  width: 6rem;
+}
+.card-text {
+  margin-top: 2rem;
+  color: red;
+}
+.trusted-by {
+  padding: 2rem 6.5rem;
+}
+
+.trusted-title {
+  font-size: 28px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin-bottom: 2rem;
+}
+.brands-images-container {
+  display: flex;
+  justify-content: space-between;
+}
+.brand-image {
+  width: 10%;
+}
+.ready {
+  padding: 1rem 6.5rem;
+  background-color: #fbdc00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.get-started-btn {
+  background-color: red;
+  padding: 0.6rem 1.5rem;
+  color: white;
+  border: 1px solid #ff0000;
+  border-radius: 8px;
+  font-weight: 700;
+  margin: 1rem 0rem;
+}
+.ready-title {
+  font-size: 28px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem 0;
+}
+.industries-served {
+  width: 100%;
+}
+.how-it-works {
+  padding: 1rem 6.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.how-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0;
+}
+.how-card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 30%;
+}
+.how-card-stage {
+  color: red;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.how-card-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.how-card-title-img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+.how-card-title-text {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #434343;
+}
+.how-card-points {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  color: #434343;
+  padding: 1rem;
+  font-weight: 300;
+}
+.how-card-points li {
+  padding: 0.3rem 0;
+}
+.how-grid {
+  background-image: url("./images/laptop.png");
+  background-position: center;
+  background-size: 450px;
+  background-repeat: no-repeat;
+}
+.how-it-works .how-title {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 2rem 0;
+}
+.how-it-works .how-options {
+  display: flex;
+}
+.how-option {
+  margin: 0 2rem;
+  background-color: #fbdc00;
+  border-radius: 20px;
+  padding: 0.7rem 1.2rem;
+  font-weight: 600;
+}
+.how-option-2 {
+  margin: 0 2rem;
+  background-color: #e3e2e2;
+  border-radius: 20px;
+  padding: 0.7rem 1.2rem;
+  font-weight: 500;
+}
+.subscribe {
+  padding: 1rem 20rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #fbdc00;
+}
+.subscribe-heading {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 1rem;
+}
+.subscribe-info {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "PT Sans", sans-serif;
+  color: #434343;
+  margin: 1rem;
+}
+.email-input {
+  width: 20rem;
+  height: 2.5rem;
+  padding: 0.4rem 4rem 0.4rem 1rem;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid white;
+}
+.sub-btn {
+  height: 2.5rem;
+  padding: 0 1.5rem;
+  background-color: #ff0000;
+  color: white;
+  font-weight: 800;
+  border: 1px solid red;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.subscribe-form {
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem;
+}
+.subscribe-text {
+  margin-left: 2rem;
+}
+.about {
+  background-color: #fbdc00;
+  font-weight: 400;
+  padding: 2rem 4rem;
+}
+.col {
+  list-style: none;
+}
+.column {
+  padding: 2rem;
+}
+
+.col h3 {
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.col li {
+  margin: 0.6rem 0;
+  color: #434343;
+  font-size: 14px;
+}
+.about {
+  display: flex;
+}
+.about-products {
+  display: flex;
+  width: 40%;
+}
+.about-partners {
+  width: 20%;
+}
+.about-company {
+  width: 20%;
+}
+.about-knowlege-center {
+  width: 20%;
+}
